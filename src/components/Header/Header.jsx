@@ -1,4 +1,5 @@
 import "./Header.css";
+import { useState } from "react";
 import logo from "../../assets/react-core-concepts.png";
 
 const words = ["Fundamental", "Crucial", "Core"];
@@ -8,7 +9,7 @@ function getRandomInt(max) {
 }
 
 function Header() {
-	let randomWord = words[getRandomInt(words.length)];
+	const randomWord = words[getRandomInt(words.length)];
 
 	return (
 		<header>

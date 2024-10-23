@@ -1,6 +1,7 @@
 import "./TabButton.css";
 
 function TabButton(props) {
+	console.log(props);
 	return (
 		<li>
 			<button
